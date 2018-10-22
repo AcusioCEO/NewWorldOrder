@@ -1,17 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background: #1f1c2c; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #928dab,
-    #1f1c2c
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #928dab,
-    #1f1c2c
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background-color: black;
   overflow: hidden;
 }
 
@@ -34,7 +23,7 @@
 
 /* Add an active class to highlight the current page */
 .active {
-  background-color: #1f1c2c;
+  /* background-color: orange; */
   color: white;
 }
 

@@ -1,12 +1,19 @@
-import "./styles/Navbar.css";
-
 import React, { Component } from "react";
 
+//Importing React Router
+import { BrowserRouter, NavLink } from "react-router-dom";
+
+//Importing styles for the navbar
+import "./styles/Navbar.css";
+
+//Function to handle collapsible navbar
 function collapse(e) {
   e.preventDefault();
-  console.log("The link was clicked.");
 
+  //Grabs the navbar element
   var x = document.getElementById("myTopnav");
+
+  //if navbar is
   if (x.className === "topnav") {
     x.className += " responsive";
   } else {
@@ -17,17 +24,19 @@ function collapse(e) {
 class Navbar extends Component {
   render() {
     return (
-      <div class="topnav" id="myTopnav">
-        <a href="/home" className="active">
-          New World Order Records ✪
-        </a>
-        <a href="/news">News</a>
-        <a href="/contact">Contact</a>
-        <a href="/about">About</a>
-        <a href="/" className="icon" onClick={collapse}>
-          <i class="fa fa-bars" />
-        </a>
-      </div>
+      <BrowserRouter>
+        <div className="topnav" id="myTopnav">
+          <NavLink to="/" className="active">
+            New World Order Records ✪
+          </NavLink>
+          <NavLink to="/about">About </NavLink>
+          <NavLink to="/artists">Artists </NavLink>
+          <NavLink to="/contact">Contact </NavLink>
+          <NavLink to="/" className="icon" onClick={collapse}>
+            <i className="fa fa-bars" />
+          </NavLink>
+        </div>
+      </BrowserRouter>
     );
   }
 }
