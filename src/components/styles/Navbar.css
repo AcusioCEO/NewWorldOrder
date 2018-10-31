@@ -1,5 +1,7 @@
 /* Add a black background color to the top navigation */
 .topnav {
+  font-family: "PT Sans Caption", sans-serif;
+
   background-color: black;
   overflow: hidden;
 }

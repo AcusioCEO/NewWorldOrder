@@ -1,11 +1,19 @@
 import React, { Component } from "react";
 import "./App.css";
+import "./components/styles/Footer.css";
 import Navbar from "./components/Navbar";
-// import Layout from "./components/Layout";
+import Footer from "./components/Footer";
+
+document.body.style = "background-color: #fff3ea";
 
 class App extends Component {
   render() {
-    return <Navbar />;
+    return (
+      <div>
+        <Navbar />
+        <Footer />
+      </div>
+    );
   }
 }
 

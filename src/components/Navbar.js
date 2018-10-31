@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 //Importing React Router
 import { BrowserRouter, NavLink } from "react-router-dom";
+import Routing from "./routes/Routing";
 
 //Importing styles for the navbar
 import "./styles/Navbar.css";
@@ -25,16 +26,19 @@ class Navbar extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div className="topnav" id="myTopnav">
-          <NavLink to="/" className="active">
-            New World Order Records ✪
-          </NavLink>
-          <NavLink to="/about">About </NavLink>
-          <NavLink to="/artists">Artists </NavLink>
-          <NavLink to="/contact">Contact </NavLink>
-          <NavLink to="/" className="icon" onClick={collapse}>
-            <i className="fa fa-bars" />
-          </NavLink>
+        <div>
+          <div className="topnav" id="myTopnav">
+            <NavLink to="/home" className="active">
+              New World Order Records
+            </NavLink>
+            {/* <NavLink to="/about">About </NavLink> */}
+            <NavLink to="/artists">Artists </NavLink>
+            <NavLink to="/contact">Contact </NavLink>
+            <NavLink to="/" className="icon" onClick={collapse}>
+              <i className="fa fa-bars" />
+            </NavLink>
+          </div>
+          <Routing />
         </div>
       </BrowserRouter>
     );

@@ -1,11 +1,10 @@
 import React, { Component } from "react";
-import Layout from "./Layout";
 
-export default class Home extends Component {
+export default class About extends Component {
   render() {
     return (
       <div>
-        <Layout />
+        <h1>This is the About page!</h1>
       </div>
     );
   }
