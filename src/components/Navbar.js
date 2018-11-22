@@ -32,7 +32,7 @@ class Navbar extends Component {
               New World Order Records
             </NavLink>
             {/* <NavLink to="/about">About </NavLink> */}
-            <NavLink to="/artists">Artists </NavLink>
+            {/* <NavLink to="/artists">Artists </NavLink> */}
             <NavLink to="/contact">Contact </NavLink>
             <NavLink to="/" className="icon" onClick={collapse}>
               <i className="fa fa-bars" />

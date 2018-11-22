@@ -22,7 +22,8 @@ body {
 
 /* Create four equal columns that sits next to each other */
 .column {
-  background-color: white;
+  text-decoration: none;
+  background-color: #fff3ea;
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
   max-width: 25%;
@@ -64,4 +65,13 @@ body {
 
 .card p {
   font-size: 70%;
+}
+
+.about {
+  line-height: 40px;
+  font-family: "Raleway", sans-serif;
+
+  color: black;
+  padding: 2em;
+  font-size: 2em;
 }

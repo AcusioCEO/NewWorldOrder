@@ -9,7 +9,7 @@ export default class Card extends Component {
           <div className="container">
             <img
               className="deleted"
-              src="https://www.w3schools.com/howto/img_avatar.png"
+              src="https://pbs.twimg.com/profile_images/1048751501768716288/aXJjBa_U_400x400.jpg"
               alt="Avatar"
             />
             <h4>

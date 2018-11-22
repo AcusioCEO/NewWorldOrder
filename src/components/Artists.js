@@ -1,61 +1,12 @@
 import React, { Component } from "react";
-import "./styles/Card.css";
 import "./styles/Artists.css";
-import { Link, BrowserRouter } from "react-router-dom";
+
+import "./styles/Card.css";
+import { Link } from "react-router-dom";
 
 export default class Artists extends Component {
   render() {
     return (
-      // <BrowserRouter>
-      //   <div>
-      //     <Link to="/lilstar">
-      //       <div className="row">
-      //         <div className="column">
-      //           <br />
-
-      //           <div className="card">
-      //             <div className="container">
-      //               <img
-      //                 className="deleted"
-      //                 src="https:pbs.twimg.com/profile_images/1048751501768716288/aXJjBa_U_400x400.jpg"
-      //                 alt="Avatar"
-      //               />
-      //               <h4>
-      //                 <b> Lil Star</b>
-      //               </h4>
-      //               <p>Los Angeles, CA</p>
-      //             </div>
-      //           </div>
-      //           <br />
-      //         </div>
-      //       </div>
-      //     </Link>
-
-      //     <Link to="/lilstar">
-      //       <div className="row">
-      //         <div className="column">
-      //           <br />
-
-      //           <div className="card">
-      //             <div className="container">
-      //               <img
-      //                 className="deleted"
-      //                 src="https:pbs.twimg.com/profile_images/1048751501768716288/aXJjBa_U_400x400.jpg"
-      //                 alt="Avatar"
-      //               />
-      //               <h4>
-      //                 <b> Lil Star</b>
-      //               </h4>
-      //               <p>Los Angeles, CA</p>
-      //             </div>
-      //           </div>
-      //           <br />
-      //         </div>
-      //       </div>
-      //     </Link>
-      //   </div>
-      // </BrowserRouter>
-
       <div>
         <h1 className="center">Artists</h1>
 
@@ -81,7 +32,7 @@ export default class Artists extends Component {
             </div>
           </Link>
 
-          <Link to="/KVNINO" className="column">
+          <Link to="/kvnino" className="column">
             <div>
               <br />
 
@@ -89,11 +40,11 @@ export default class Artists extends Component {
                 <div className="container">
                   <img
                     className="deleted"
-                    src="https://pbs.twimg.com/profile_images/1048751501768716288/aXJjBa_U_400x400.jpg"
+                    src="https://pbs.twimg.com/profile_images/1050298812370018304/HMEGMTxt_400x400.jpg"
                     alt="Avatar"
                   />
                   <h4>
-                    <b> Lil Star</b>
+                    <b> Knowledge </b>
                   </h4>
                   <p>Los Angeles, CA</p>
                 </div>
@@ -110,13 +61,13 @@ export default class Artists extends Component {
                 <div className="container">
                   <img
                     className="deleted"
-                    src="https://pbs.twimg.com/profile_images/1048751501768716288/aXJjBa_U_400x400.jpg"
+                    src="https://pbs.twimg.com/profile_images/1049793469575774208/Zu9XzKfq_400x400.jpg"
                     alt="Avatar"
                   />
                   <h4>
-                    <b> Lil Star</b>
+                    <b> KV Nino</b>
                   </h4>
-                  <p>Los Angeles, CA</p>
+                  <p>Orlando, FL</p>
                 </div>
               </div>
               <br />
@@ -131,15 +82,19 @@ export default class Artists extends Component {
                 <div className="container">
                   <img
                     className="deleted"
-                    src="https://pbs.twimg.com/profile_images/1048751501768716288/aXJjBa_U_400x400.jpg"
+                    src="https://pbs.twimg.com/profile_images/1044109940896538625/IvomYFrU_400x400.jpg"
                     alt="Avatar"
                   />
                   <h4>
-                    <b> Lil Star</b>
+                    <b>4Causal</b>
                   </h4>
                   <p>Los Angeles, CA</p>
                 </div>
               </div>
+              <br />
+              <br />
+              <br />
+              <br />
               <br />
             </div>
           </Link>

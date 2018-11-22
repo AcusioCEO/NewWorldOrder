@@ -1,6 +1,31 @@
-#logo {
+.apple {
   float: left;
-  background-color: green;
+  color: #ffffff;
+  background-color: #282828;
+  padding: 10px;
+  position: relative;
+}
+
+.spotify {
+  float: left;
+  color: #81b71a;
+  background-color: #010203;
+  padding: 10px;
+  position: relative;
+}
+
+.youtube {
+  float: right;
+  color: #ff0000;
+  background-color: #010203;
+  padding: 10px;
+  position: relative;
+}
+
+.soundcloud {
+  float: right;
+  color: #fff8f1;
+  background-color: #ff7700;
   padding: 10px;
   position: relative;
 }

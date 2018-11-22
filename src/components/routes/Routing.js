@@ -1,8 +1,14 @@
 import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
 import Home from "../Home";
-// import About from "../About";
 import Artists from "../Artists";
+
+//Artists pages
+import lilstar from "../Artist Pages/lilstar";
+import kvnino from "../Artist Pages/kvnino";
+import isaac from "../Artist Pages/isaac";
+import jesseta from "../Artist Pages/jesseta";
+
 import Contact from "../Contact";
 import Error from "../Error";
 
@@ -18,6 +24,12 @@ export default class Routing extends Component {
           {/* <Route path="/about" component={About} /> */}
           <Route path="/artists" component={Artists} />
           <Route path="/contact" component={Contact} />
+
+          {/* Artists Page */}
+          <Route path="/lilstar" component={lilstar} />
+          <Route path="/kvnino" component={kvnino} />
+          <Route path="/isaac" component={isaac} />
+          <Route path="/jesseta" component={jesseta} />
 
           <Route component={Error} exact />
         </Switch>
