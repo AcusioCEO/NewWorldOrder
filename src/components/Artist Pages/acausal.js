@@ -4,7 +4,7 @@ import "../styles/Artists.css";
 
 // import "../styles/Card.css";
 
-export default class lilstar extends Component {
+export default class acausal extends Component {
   render() {
     return (
       <div
@@ -27,38 +27,31 @@ export default class lilstar extends Component {
 
           <div className="footie">
             <h1>4Causal</h1>
-            <b class="title">Producer</b>
+            <b class="title">Producer / Recording Artist </b>
             {/* <p>Harvard University</p> */}
           </div>
 
           <div className="footie-green">
             <a
-              href="https://itunes.apple.com/us/artist/lil-star/1437371104"
+              href="https://itunes.apple.com/us/album/drippy-feat-4causal-single/1442916161"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i class="fa fa-apple apple" />
             </a>
             <a
-              href="https://open.spotify.com/artist/2Sq5G3vURHnrMcnI7C5TxY"
+              href="https://open.spotify.com/track/7iKaQwlJ1zp7LTwC8AQzQO"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i class="fa fa-spotify spotify" />
             </a>
             <a
-              href="https://www.youtube.com/channel/UCXR9e82HM7iCoTd137fvyzg?view_as=subscriber"
+              href="https://www.youtube.com/watch?v=d-K3f0Si9h4"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i class="fa fa-youtube youtube" />
-            </a>
-            <a
-              href="https://soundcloud.com/roxstar888"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fa fa-soundcloud soundcloud" />
             </a>
           </div>
         </div>

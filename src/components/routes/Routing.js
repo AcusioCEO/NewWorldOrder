@@ -7,12 +7,12 @@ import Artists from "../Artists";
 import lilstar from "../Artist Pages/lilstar";
 import kvnino from "../Artist Pages/kvnino";
 import isaac from "../Artist Pages/isaac";
-import jesseta from "../Artist Pages/jesseta";
 
 import Contact from "../Contact";
 import Error from "../Error";
 
 import "../styles/Navbar.css";
+import acausal from "../Artist Pages/acausal";
 
 export default class Routing extends Component {
   render() {
@@ -29,7 +29,7 @@ export default class Routing extends Component {
           <Route path="/lilstar" component={lilstar} />
           <Route path="/kvnino" component={kvnino} />
           <Route path="/isaac" component={isaac} />
-          <Route path="/jesseta" component={jesseta} />
+          <Route path="/acausal" component={acausal} />
 
           <Route component={Error} exact />
         </Switch>

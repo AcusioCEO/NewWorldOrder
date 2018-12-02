@@ -74,7 +74,7 @@ export default class Artists extends Component {
             </div>
           </Link>
 
-          <Link to="/jesseta" className="column">
+          <Link to="/acausal" className="column">
             <div>
               <br />
 

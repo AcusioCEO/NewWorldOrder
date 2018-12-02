@@ -33,28 +33,28 @@ export default class lilstar extends Component {
 
           <div className="footie-green">
             <a
-              href="https://itunes.apple.com/us/artist/lil-star/1437371104"
+              href="https://itunes.apple.com/us/album/the-heros-project/1437575638"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i class="fa fa-apple apple" />
             </a>
             <a
-              href="https://open.spotify.com/artist/2Sq5G3vURHnrMcnI7C5TxY"
+              href="https://open.spotify.com/artist/3oVGUKgY2tGbDEagj3t887"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i class="fa fa-spotify spotify" />
             </a>
             <a
-              href="https://www.youtube.com/channel/UCXR9e82HM7iCoTd137fvyzg?view_as=subscriber"
+              href="https://www.youtube.com/user/Mora98ML/videos"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i class="fa fa-youtube youtube" />
             </a>
             <a
-              href="https://soundcloud.com/roxstar888"
+              href="https://soundcloud.com/knowledge626"
               target="_blank"
               rel="noopener noreferrer"
             >

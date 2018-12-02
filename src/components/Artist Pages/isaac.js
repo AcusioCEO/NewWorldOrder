@@ -16,6 +16,7 @@ export default class lilstar extends Component {
           // backgroundColor: "red"
         }}
       >
+        <div />
         <div className="card">
           <div>
             <img
@@ -26,26 +27,12 @@ export default class lilstar extends Component {
           </div>
 
           <div className="footie">
-            <h1>Lil Star</h1>
+            <h1>KV Nino</h1>
             <b class="title">Artist</b>
             {/* <p>Harvard University</p> */}
           </div>
 
           <div className="footie-green">
-            <a
-              href="https://itunes.apple.com/us/artist/lil-star/1437371104"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fa fa-apple apple" />
-            </a>
-            <a
-              href="https://open.spotify.com/artist/2Sq5G3vURHnrMcnI7C5TxY"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fa fa-spotify spotify" />
-            </a>
             <a
               href="https://www.youtube.com/channel/UCXR9e82HM7iCoTd137fvyzg?view_as=subscriber"
               target="_blank"
